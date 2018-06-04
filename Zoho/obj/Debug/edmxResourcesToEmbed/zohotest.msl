@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="zohotestModelStoreContainer" CdmEntityContainer="zohotestEntities1">
+    <EntitySetMapping Name="zohotokens">
+      <EntityTypeMapping TypeName="zohotestModel.zohotoken">
+        <MappingFragment StoreEntitySet="zohotokens">
+          <ScalarProperty Name="accessToken" ColumnName="accessToken" />
+          <ScalarProperty Name="refreshToken" ColumnName="refreshToken" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
